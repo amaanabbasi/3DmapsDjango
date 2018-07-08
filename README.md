@@ -32,6 +32,10 @@ Go ahead and run the application.
 
 `python manage.py runserver`
 
+Go to localhost
+![local](https://user-images.githubusercontent.com/30196830/42422925-f308a002-830d-11e8-82e7-61d62c8a0774.png)
+
+
 
 
 
