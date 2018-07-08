@@ -23,14 +23,16 @@ or
 
 `source djangomaps/bin/activate` (mac users)
 
+* This will install all the neccessary packages.
+
 `pip install -r requirements.txt`
 
-This will install all the neccessary packages.
-
-After its done, cd into `src/maps`, open `views.py` and put the token within the quotes.
+After its done, cd into `src/maps`, open `views.py` and put the access token within the quotes.
 Go ahead and run the application.
 
 `python manage.py runserver`
+
+
 
 
 
