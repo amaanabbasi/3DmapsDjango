@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<h6> Mapbox maps in your apps</h6>
+	<h2> Mapbox maps in your apps</h2>
 
 	<div id='map' style='width: 95%; height:850px;'></div>
 	<script>
@@ -16,10 +16,10 @@
 		var map = new mapboxgl.Map({
 		container: 'map',
 		style: 'mapbox://styles/mapbox/streets-v10',
-		center: [77.2423,28.5972],
-		zoom: 17,
-		bearing: 0,
-		pitch:100
+		center: [77.3852,28.5066],
+		zoom: 16,
+		bearing: -17.6,
+		pitch:45
 	
 		});
 
@@ -28,7 +28,7 @@
 
 		// display a blue marker
 		var marker = new mapboxgl.Marker()
-  			.setLngLat([77.2506,28.5931])
+  			.setLngLat([77.3852,28.5066])
   			.addTo(map);
 
   		// Navigation marker at top-left corner
