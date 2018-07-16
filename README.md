@@ -15,7 +15,7 @@ Click the "JS Web" option. Then, choose "Use the Mapbox CDN" to install Mapbox G
 
 `python -m venv djangomaps`
 
-Activate the virtualenv
+* Activate the virtualenv
 
 `.\Scripts\activate` (Windows users)
 
@@ -30,7 +30,9 @@ or
 * After its done, cd into `src/maps`, open `views.py` and put the access token within the quotes.
   Go ahead and run the application.
 
-`python manage.py runserver`
+```python
+python manage.py runserver
+```
 
 * Go to localhost
 
